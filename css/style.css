@@ -82,86 +82,96 @@ h6 {
 body {
    font-family: "Overpass", sans-serif;
 }
-.container {
-   height: 810px;
-   width: 1440px;   
+.background{
+   height: 900px;
+   max-width: 100%;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.0001), rgba(0, 0, 0, 0.0001)),
+      linear-gradient(317.65deg, #cef5f3 9.1%, #00bce4 80.49%);
    margin: 0 auto;
-   padding: 196px 96px 62px 150px;
-   background: url('../img/coffee-wall.png')0 0 / cover no-repeat;
-   
-}
+   padding: 122px 168px 82px 204px;
 
+}
+.container {
+   height: 900px;
+   max-width: 1440px;
+   margin: 0 auto;
+
+}
+.contaiter__block {
+   display: flex;
+   justify-content: flex-end;
+
+}
 .text {
-   height: 318px;
-   width: 556px;
-}
-
-.text__header {
-   font-size: 13px;
-   font-weight: 700;
-   letter-spacing: 1.08333px;
 }
 .text__title {
+   font-size: 46px;
    font-weight: 700;
-   font-size: 75px;
-   padding-bottom: 74px;
-   padding-top: 14px;
-}
-.text__button {
-   height: 48px;
-   width: 163px;
-   border-radius: 6px;
-   background: #ffffff;
-   font-weight: 700;
-   font-size: 15px;
-}
-
-.footer {
-}
-.footer__box {
-   display: flex;
-   justify-content: space-between;
-   height: 80px;
-   width: 803px;
-   margin: 156px 0px 0px 356px;
+   line-height: 64px;
+   letter-spacing: -1.5px;
    color: #ffffff;
 }
-.footer__box_1 {
-   display: flex;
-   align-items: flex-start;
+.text__description {
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 32px;
+   margin-top: 57px;
+   margin-bottom: 57px;
 }
-.footer__oval {
+.form {
+   display: flex;
+}
+.form__email {
+   border: 1px solid #1c1c1c;
+   height: 50px;
+   width: 317px;
+   background: transparent;
+   font-size: 16px;
+   border-radius: 4px;
+   padding-left: 24px;   
+}
+
+
+
+::-webkit-input-placeholder { 
+   color:    rgb(0, 0, 0);}
+
+.form__button {
+   height: 50px;
+   width: 160px;
+   border-radius: 4px;
+   background-color: #1c1c1c;
+   font-size: 15px;
+   color: #ffffff;
+}
+
+.form__button:hover {
+   background-color: #4610c4;
+}
+
+.picture {
+}
+.footer {
+
 
 }
-.oval {
-   border: 2px solid #ffffff;
-   height: 36px;
-   width: 36px;
-   border-radius: 50%;
-   line-height: 40px;
-   text-align: center;
-   margin-right: 20px;
+.footer__title {   
+   color: #ffffff;
+   letter-spacing: 1.08333px;
+   line-height: 20px;
+   padding-bottom: 19px;
 }
-.number {
-}
-.footer__text {
-}
-.footer__text_title {
-   font-size: 15px;
-   line-height: 24px;
-}
-.footer__text_content {
-   font-size: 15px;
-   line-height: 26px;
-   width: 161px;
-   height: 48px;
-}
-.footer__box_2 {
+hr {
+   border-bottom: 1px solid #ffffff;
+   }
+.footer__menu {
+   padding-top: 50px;
    display: flex;
-   align-items: flex-start
+   justify-content: space-between;
+   align-items: center;}
    
-}
-.footer__box_3 {
-   display: flex;
-   align-items: flex-start
+   
+
+.footer__photo {   
+   width: 80px; 
 }
